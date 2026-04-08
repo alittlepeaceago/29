@@ -4,82 +4,111 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- title dikosongkan -->
 <title></title>
 
 <style>
 
-/* BACKGROUND CREAM */
+/* BACKGROUND LUAR */
 
 body {
-    margin: 0;
-    height: 100vh;
 
-    background-color: #F2E3C6;
+margin: 0;
+height: 100vh;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+background-color: #EAD7B7;
 
-    font-family: 'Aptos Display', sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+
+font-family: 'Aptos Display', sans-serif;
+
 }
 
-/* CONTAINER */
+/* FRAME */
+
+.frame {
+
+width: 92%;
+height: 92%;
+
+background-color: #F6E7CC;
+
+border: 7px solid #7A4E2D;
+
+border-radius: 28px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+
+}
+
+/* ISI */
 
 .container {
-    text-align: center;
+
+text-align: center;
+
 }
 
-/* TEXT HI ANDRI */
+/* HI ANDRI — DIBESARKAN */
 
 .title {
 
-    font-family: 'Aptos', sans-serif;
-    font-weight: 800;
+font-family: 'Aptos', sans-serif;
+font-weight: 800;
 
-    font-size: 34px;
+font-size: 42px;  /* sebelumnya 34px */
 
-    margin-bottom: 50px;
+margin-bottom: 60px;
 
-    color: #7A4E2D; /* warna boba */
+color: #7A4E2D;
+
 }
 
-/* ICON BUKU */
+/* BOOK — DIBESARKAN */
 
 .book img {
 
-    width: 170px;
+width: 230px;  /* sebelumnya 170px */
 
-    margin-bottom: 50px;
+margin-bottom: 60px;
+
 }
 
-/* BUBBLE OVAL */
+/* BUBBLE — DIBESARKAN */
 
 .open-btn {
 
-    font-family: 'Aptos Display', sans-serif;
+font-family: 'Aptos Display', sans-serif;
 
-    font-size: 15px;
+font-size: 18px;  /* sebelumnya 15px */
 
-    padding: 16px 55px;
+padding: 20px 70px;  /* bubble lebih gede */
 
-    border-radius: 50px;
+border-radius: 60px;
 
-    border: none;
+border: none;
 
-    background-color: #7A4E2D;
+background-color: #7A4E2D;
 
-    color: #F2E3C6;
+color: #F2E3C6;
 
-    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 
-    cursor: pointer;
+cursor: pointer;
 
-    letter-spacing: 2px;
+letter-spacing: 2px;
+
 }
 
 .open-btn:hover {
-    transform: scale(1.05);
+
+transform: scale(1.05);
+
 }
 
 </style>
@@ -87,6 +116,8 @@ body {
 </head>
 
 <body>
+
+<div class="frame">
 
 <div class="container">
 
@@ -101,6 +132,8 @@ Hi, Andri
 <button class="open-btn">
 OPEN STORY BOOK
 </button>
+
+</div>
 
 </div>
 
